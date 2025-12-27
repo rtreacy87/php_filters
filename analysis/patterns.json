@@ -1,0 +1,26 @@
+{
+  "Database Password": [
+    "(?:db_pass|database_password|mysql_pass)\\s*=\\s*['\"]([^'\"]+)['\"]",
+    "\\$(?:db_)?pass(?:word)?\\s*=\\s*['\"]([^'\"]+)['\"]"
+  ],
+  "API Key": [
+    "(?:api_key|apikey|api_secret)\\s*=\\s*['\"]([^'\"]+)['\"]",
+    "(?:stripe|aws|stripe_key|aws_key)\\s*=\\s*['\"]([^'\"]+)['\"]"
+  ],
+  "Password": [
+    "password\\s*=\\s*['\"]([^'\"]+)['\"]",
+    "\\$pass\\s*=\\s*['\"]([^'\"]+)['\"]"
+  ],
+  "Secret Key": [
+    "(?:secret|secret_key|jwt_secret)\\s*=\\s*['\"]([^'\"]+)['\"]"
+  ],
+  "Database Host": [
+    "(?:db_host|database_host|mysql_host)\\s*=\\s*['\"]([^'\"]+)['\"]"
+  ],
+  "Username": [
+    "(?:db_user|database_user|username)\\s*=\\s*['\"]([^'\"]+)['\"]"
+  ],
+  "File Path": [
+    "(?:require|include)(?:_once)?\\s*\\(?['\"]([^'\"]+\\.php)['\"]"
+  ]
+}
